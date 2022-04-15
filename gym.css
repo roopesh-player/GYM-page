@@ -1,0 +1,94 @@
+html,body{
+    height:100%
+}
+body{
+    margin: 0%;
+    background-image: url(gym3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Libre Baskerville';
+}
+#gymiconImage{
+    width: 50px;
+    display: block;
+    padding-left: 22px;
+}
+#GymIcon{
+    position: fixed;
+ display: inline-block;
+margin: 5px; 
+color: rgb(121, 113, 165);
+}
+nav{
+    margin-left: 10%;
+     
+}
+nav ul{
+    /* position:fixed; */
+    list-style-type: none;
+    margin-left: 25%;
+   
+    
+}
+
+nav ul li{
+    margin-left:20px ;
+    display: inline-block;
+}
+.navbarlinks{
+    color:#ffffff;
+    text-decoration: none;
+    /* src: url(https://fonts.googleapis.com/css?family=Ubuntu&display=swap); */
+    
+    font-weight: 100;
+    font-size: larger;
+    font
+}
+a{
+    text-decoration: none; 
+    color:white;
+}
+a:hover{
+    color:gray;
+}
+
+.buttons{
+    display: inline-block;
+    /* border: #ffffff 3px solid; */
+    margin-left:240px;
+    
+}
+.button{
+    text-decoration: none;
+    border-radius: 7px;
+    border: #ffffff 2px solid;
+    background-color: black;
+    color:white;
+    font-family:'Libre Baskerville' ;
+}
+.button:hover{
+    color:aqua;
+}
+form{
+    height: 250px;
+    margin-top: 12%;
+    margin-left: 396px;
+    margin-right: 46%;
+    padding: 23px 89px;
+    border: #c08585  2px solid;
+    border-radius: 10px;
+    color: white;
+}
+input{
+    border: rgb(28, 26, 26) 2px solid;
+    width: 100%;
+
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(0 0 0);
+    color: white;
+    font-family: 'Libre Baskerville';
+}
+#sumbit:hover{
+    color:gray;
+}
